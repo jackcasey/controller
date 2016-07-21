@@ -41,7 +41,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-*.attr
 
 # Editor generated files #
 ##########################
@@ -56,7 +55,13 @@ tags
 CMakeFiles
 CMakeCache.txt
 cmake_install.cmake
-compile_commands.json
 
-# External Repos #
-##################
+# Python Generated Files #
+##########################
+__pycache__/
+*.py[cod]
+
+# Dropbox #
+###########
+*.attr
+
