@@ -30,19 +30,19 @@
 // You can change these to give your code its own name.
 #define STR_MANUFACTURER        L"Kiibohd"
 #define STR_PRODUCT             L"Keyboard - WhiteFox PartialMap pjrcUSB full"
-#define STR_SERIAL              L"Dirty master - 2016-07-17 22:36:13 -0700"
+#define STR_SERIAL              L"Dirty master - 2016-07-21 16:15:15 +0800"
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "8940a04dc24a40f9534becb5cffde35bad963303"
+#define CLI_Revision            "12b84b0d43bcc3330dffb1bdd4eae7e58afcfadb"
 #define CLI_Branch              "master"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tKeyboards/whitefox.bash"
-#define CLI_RepoOrigin          "git@github.com:kiibohd/controller.git"
-#define CLI_CommitDate          "2016-07-17 22:36:13 -0700"
-#define CLI_CommitAuthor        "Jacob Alexander <haata@kiibohd.com>"
+#define CLI_ModifiedFiles       "\r\n\tKeyboards/WhiteFox.gcc/buildvars.h\r\n\tKeyboards/WhiteFox.gcc/generatedKeymap.h\r\n\tKeyboards/WhiteFox.gcc/kll_defs.h\r\n\tkll/layouts/whitefox.kll\r\n\tkll/layouts/whitefox_1.kll"
+#define CLI_RepoOrigin          "git@github.com:jackcasey/controller.git"
+#define CLI_CommitDate          "2016-07-21 16:15:15 +0800"
+#define CLI_CommitAuthor        "Jack Casey <jack.casey@agworld.com.au>"
 #define CLI_Modules             "Scan(WhiteFox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2016-07-21 16:08:20 +0800"
+#define CLI_BuildDate           "2016-08-05 11:49:13 +0800"
 #define CLI_BuildOS             "Darwin-14.5.0"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"

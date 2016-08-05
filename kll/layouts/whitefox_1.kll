@@ -22,9 +22,9 @@ U"EQUAL" : U"F12";
 U"HASH" : U"HOME";
 U"BACKSPACE" : U"END";
 U"P" : U"UP";
-U"LBRACE" : ledControl( 4, 15, 0 );
-U"RBRACE" : ledControl( 3, 15, 0 );
-U"BACKSLASH" : ledControl( 5, 0, 0 );
+U"LBRACE" : ledControl( 3, 5, 0 );
+U"RBRACE" : ledControl( 5, 0, 0 );
+U"BACKSLASH" : U"DELETE";
 U"F" : flashMode();
 U"L" : U"LEFT";
 U"SEMICOLON" : U"DOWN";
@@ -38,3 +38,6 @@ U"N" : CONS"MUTE";
 U"LEFT" : U"HOME";
 U"RIGHT" : U"END";
 
+# symbol column
+U"DELETE" : CONS"SCANPREVIOUSTRACK";
+U"PAGEDOWN" : CONS"MUTE";
